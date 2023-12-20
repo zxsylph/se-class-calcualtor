@@ -1,0 +1,47 @@
+body{
+  display:flex;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+div{
+  display:flex;
+  justify-content:center;
+}
+
+#app{
+  height: 500px;
+}
+
+.fd-column{
+  flex-direction:column;
+}
+
+.f-grow{
+  flex-grow:1;
+}
+
+.row{
+  flex-basis: 0;
+}
+
+.cal-button{
+  border:1px solid black;
+  align-items:center;
+  cursor:pointer;
+  margin: 4px;
+  flex-basis: 0;
+}
+
+.cal-button:hover{
+  background-color:#ccc;
+}
+
+#display{
+  justify-content:flex-end;
+  font-size:50pt;
+  height:20px;
+}
